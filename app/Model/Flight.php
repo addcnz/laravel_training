@@ -6,7 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Flight extends Model
 {
-    function a(){
-        return false;
-    }
+    public $table = "flight";
+    public $timestamps = "false";
+    
+    //function
 }
