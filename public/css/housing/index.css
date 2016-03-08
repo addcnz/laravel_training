@@ -1,0 +1,767 @@
+﻿@charset "utf-8"; 
+
+body{
+	text-align:left;
+	font-size:13px;
+}
+
+/*== 全局 ==*/
+#main{
+	width:1000px;
+	margin:0 auto;
+}
+.mgt{
+	margin-top:10px;
+}
+.last{
+	border:0;
+}
+.dropmenu-list {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #F77D2D;
+    float: left;
+    left: 0;
+    padding: 1px;
+    position: absolute;
+    top: 30px;
+    z-index: 9999;
+}
+.dropmenu-list li {
+    text-align: left;
+    width: 85px;
+}
+.dropmenu-list li a {
+    color: #555555;
+    display: block;
+    font-size: 13px;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    padding-left: 5px;
+    text-decoration: none;
+}
+.dropmenu-list li a:hover {
+    background-color: #FCE1B3;
+    color: #FF4200;
+}
+.drop-other{
+	top:23px;
+	width:100%;
+}
+.drop-other li{
+	width:100%;
+}
+.area-select{
+	margin-left:20px;
+	float:left;
+}
+.area-pdl{
+	position:relative;
+}
+.region-select{
+	background:url(../../../../images/index/index/search-main-bg-v6.png) no-repeat 0 -204px;
+	height: 25px;
+  width: 101px;
+	border:0;
+	color: #555555;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 25px;
+  padding-left: 5px;
+  text-align: left;
+}
+.slide-baidu{
+	width:688px;
+	height:250px;
+	float:left;
+}
+.right-baidu{
+	border:1px solid #DEDEDE;
+	width:300px;
+	height:250px;
+	float:right;
+}
+.ad-df-height{
+	height:70px;
+	overflow:hidden;
+}
+
+/*== 搜尋 ==*/
+#search{
+	line-height:30px;
+	position: relative;
+	z-index:10;
+    border: 1px solid #e95b00;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    border-top: 0px;
+    text-align: left;
+
+}
+#ad_top{
+    position: relative;
+    z-index: 1;
+}
+#search .search-main{
+	position: relative;
+    z-index: 999;
+}
+#search .title{
+	font-size:13px;
+	float:left;
+}
+#search .chooseStyle, #search .chooseStyle b, #search .search-text, #search .search-btn, #search .phone, #search .guest{
+	background: url(../../image/index/housing/list.png) no-repeat;
+}
+#search .chooseStyle{
+	background-position: left -101px;
+    color: #333433;
+    cursor: pointer;
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 29px;
+    position: relative;
+    text-decoration: none;
+}
+#search .chooseStyle b{
+    background-position: right -101px;
+    height: 31px;
+    margin-left: 5px;
+    width: 24px;
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+#search .search-text {
+    background-position: left -655px;
+    border: 0 none;
+    height: 31px;
+    line-height: 31px;
+    padding-left: 10px;
+    width: 244px;
+}
+#search .search-btn {
+    background-position: left -274px;
+    border: 0 none;
+    cursor: pointer;
+    height: 31px;
+    margin-left: 10px;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 72px;
+}
+#search .other-link {
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+#search .phone, #search .guest{
+	background-position: -290px -149px;
+    color: #353437;
+    margin-right: 10px;
+    padding-left: 15px;
+}
+#search .guest{
+	background-position: left -181px;
+}
+#search .phone:hover, #search .guest:hover{
+	color:#ff6600;
+}
+.search-hot{
+	padding-top:5px;
+}
+.search-hot a{
+	margin-right:10px;
+	text-decoration:underline;
+}
+a.fc-red {
+    color: #FF0000;
+}
+
+/*== 上廣告位 ==*/
+
+/*== 近期公開銷售、購屋優惠、焦點個案 ==*/
+.pub-box{
+	border:1px solid #E0E0E0;
+}
+.pub-title{
+	background:#F9F9F9;
+	background:-moz-linear-gradient(top, #FDFEFD, #F5F5F5);
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#FDFEFD), to(#F5F5F5));
+	padding:3px 12px 3px 10px;
+	border-bottom:1px solid #E0E0E0;
+	height:25px;
+	line-height:25px;
+	position:relative;
+}
+.pub-title strong{
+	color:#333333;
+	font-size:15px;
+	float:left;
+}
+.pub-title .more{
+	float:right;
+}
+.pub-title .more2{
+	background:url(../../../../images/index/build/housing_bg.gif) no-repeat -134px -312px;
+	padding-left:15px;
+	color:#333333;
+	float:right;
+}
+.pub-title a:hover{
+	color:#ff6600;
+}
+.pubsale, .discount{
+	width:340px;
+	float:left;
+}
+.pubsale-title a{
+	margin-left:10px;
+}
+.pubsale-title a.select{
+	color:#ff6600;
+}
+.pubsale-content, .discount-content, .focus-content{
+	height:220px;
+	overflow:hidden;
+}
+.pubsale-content ul{
+	padding:10px;
+	line-height:29px;
+}
+.pubsale-content li span{
+	overflow:hidden;
+	float:left;
+}
+.pubsale-content li .month{
+	width:48px;
+}
+.pubsale-content li .title{
+	width:146px;
+}
+.pubsale-content li .address{
+	width:44px;
+}
+.pubsale-content li .price{
+	width:78px;
+	text-align:right;
+	font-family:新細明體, Arial, sans-serif;
+}
+
+/*== 購屋優惠 ==*/
+.discount{
+	margin-left:10px;
+}
+.discount-title strong{
+	float:left;
+}
+.discount-content{
+	padding:0 10px;
+	position: relative;
+}
+.discount-content ul{
+	position:absolute;
+}
+.discount-content li{
+	border-bottom:1px dashed #E0E0E0;
+	height:55px;
+	overflow:hidden;
+}
+.discount-content li span{
+	float:left;
+}
+.discount-content li .title{
+	width:165px;
+}
+.discount-content li .address{
+	width:45px;
+}
+.discount-content li .price{
+	width:105px;
+	text-align:right;
+	font-family:新細明體, Arial, sans-serif;
+}
+.discount-content li p{
+	padding-top:7px;
+}
+.discount-content li p.ico{
+	background:url(../../../../images/index/housing/index.png) no-repeat 0 -15px;
+	padding-left:32px;
+}
+
+/*== 焦點個案 ==*/
+.focus{
+	margin-left:8px;
+	width:302px;
+	float:left;
+}
+.focus-content{
+	padding:0 10px;
+}
+.focus-ad{
+	height: 81px;
+    line-height: 24px;
+    padding: 5px 0 2px 0;
+}
+.focus-list li{
+	background:url(../../../../images/index/build/housing_bg.gif) no-repeat 0 -281px;
+	line-height: 26px;
+    padding-left: 11px;
+}
+
+/*== 熱銷個案、電話諮詢排行、最新電話諮詢 ==*/
+/*== 熱銷個案 ==*/
+.hotsale{
+	margin-right:8px;
+	width:690px;
+	float:left;
+}
+.hotsale-content{
+	height:628px;
+	overflow:hidden;
+}
+.hotsale-content ul{
+	padding-top:16px;
+}
+.hotsale-content li{
+	width:152px;
+	padding:0 10px 25px;
+	float:left;
+	overflow:hidden;
+	*padding-bottom:5px;
+	height: 182px;
+}
+.hotsale-content p{
+	margin-bottom:5px;
+}
+.hotsale-content a.img{
+	border:1px solid #DDDDDD;
+	float:left;
+}
+.hotsale-content a.title{
+	float:left;
+}
+.hotsale-content .popularity{
+	color:#666666;
+	float:right;
+}
+
+/*== 電話諮詢排行 ==*/
+.phonetop, .phonenew, .houseprice{
+	width:302px;
+	overflow:hidden;
+}
+.phonetop-content, .phonenew-content{
+	height:180px;
+	overflow:hidden;
+}
+.phonetop-content ul{
+	padding:5px 10px;
+}
+.phonetop-content li{
+	padding:5px 0;
+	border-bottom:1px dashed #E6E6E6;
+	width:100%;
+	float:left;
+}
+.phonetop-content li.last{
+	border:0;
+}
+.phonetop-content li span{
+	float:left;
+}
+.phonetop-content .top1, 
+.phonetop-content .top2, 
+.phonetop-content .top3, 
+.phonetop-content .top4, 
+.phonetop-content .top5, 
+.phonetop-content .top6
+{
+	background: url(../../../../images/index/build/list-bg.png) no-repeat;
+    height: 16px;
+    width: 19px;
+	float: left;
+}
+.phonetop-content .top1{
+	background-position:left 0;
+}
+.phonetop-content .top2{
+	background-position:-19px 0;
+}
+.phonetop-content .top3{
+	background-position:-38px 0;
+}
+.phonetop-content .top4{
+	background-position:-59px 0;
+}
+.phonetop-content .top5{
+	background-position:-78px 0;
+}
+.phonetop-content .top6{
+	background-position:-97px 0;
+}
+.phonetop-content .title{
+    padding-left: 10px;
+    width: 115px;
+}
+.phonetop-content .region{
+	text-align: center;
+    width: 53px;
+}
+.phonetop-content .count{
+	color: #BE1E2D;
+    text-align: right;
+    width: 80px;
+}
+
+/*== 最新電話諮詢 ==*/
+.phonenew-content{
+	padding:0 10px;
+	position:relative;
+}
+.phonenew-content ul{
+	padding-top:3px;
+	position:absolute;
+}
+.phonenew-content li{
+	line-height:25px;
+	float:left;
+}
+.phonenew-content li span{
+	float:left;
+}
+.phonenew-content li .tel{
+	width:108px;
+}
+.phonenew-content li .housing{
+	width:85px;
+}
+.phonenew-content li .time{
+	width:80px;
+	text-align:right;
+	color:#9B9B9B;
+}
+
+/*== 新屋報價、房價走勢 ==*/
+/*== 新屋報價 ==*/
+.newhouse-content, .houseprice-content{
+	height:220px;
+	overflow:hidden;
+}
+.newhouse-content .parentU{
+	padding:5px 10px;
+}
+.newhouse-content .parentL{
+	line-height:30px;
+	width:212px;
+	margin-right:15px;
+	float:left;
+}
+.newhouse-content .last{
+	margin:0;
+}
+.newhouse-content .parentL li, .newhouse-content .parentL span{
+	float:left;
+}
+.newhouse-content .parentL .title{
+	width:115px;
+}
+.newhouse-content .parentL .price{
+	width:72px;
+	padding-right:10px;
+}
+.newhouse-content li.keep .price{
+	color:#333333;
+}
+.newhouse-content li.down .price{
+	color:#5CD54A;
+}
+.newhouse-content li.up .price{
+	color:#FF8400;
+}
+.newhouse-content .parentL .ico{
+	background: url(../../../../images/index/build/build-quote-bg.png) no-repeat;
+	width:15px;
+	height:25px;
+}
+.newhouse-content li.keep .ico{
+	background-position: left -128px;
+}
+.newhouse-content li.down .ico{
+	background-position: left -105px;
+}
+.newhouse-content li.up .ico{
+	background-position: -85px -105px;
+}
+
+/*== 房價走勢 ==*/
+.houseprice .pub-title{
+	position:relative;
+	z-index:2;
+}
+.houseprice-avg{
+	color:#ff6600;
+	padding:10px;
+	padding-bottom:0;
+}
+#houseprice-chart{
+	height:183px;
+}
+#chart_load{
+	text-align:center;
+	padding-top:65px;
+}
+
+/*== 樣品屋 ==*/
+.sample-content li{
+	padding:10px 9px 10px 10px;
+	width:230px;
+	float:left;
+}
+.sample-content li p{
+	line-height:30px;
+}
+.sample-content li .img{
+	padding:1px;
+	border:1px solid #E7E5E9;
+	float:left;
+}
+.sample-content li .title{
+	float:left;
+}
+.sample-content li .address{
+	color:#666666;
+	float:right;
+}
+
+/*
+ * 新房屋首頁增加建案推薦
+ * @author      yulei@addcn.com
+ * @updateTime  2014-05-07
+ */
+.right-baidu{
+	background:#DDDEDD;
+	border:none;
+}
+.housing_title{
+	height:25px;
+	padding-left:10px;
+	line-height: 25px;
+}
+.housing_video{
+	width: 290px;
+	height: 200px;
+	margin: 0 auto;
+}
+.housing_foot{
+	text-align: center;
+	line-height: 25px;
+}
+.housing_foot a{
+	color: #FF0200;
+}
+
+ /*
+ * 新房屋首頁增加蘋果地產新聞
+ * @author      yulei@addcn.com
+ * @updateTime  2014-06-10
+ */
+.appleCont{
+
+}
+.applePic{
+	padding:20px 10px 15px;
+}
+.applePic_left{
+	width:250px;
+	height:165px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	border: 1px solid #e0e0e0;
+}
+.applePic_left ul{
+	height: 165px;
+	position: absolute;
+}
+.applePic_left ul li{
+	width:250px;
+	height: 165px;
+	float: left;
+	position: relative;
+}
+.myFocusTxt{
+	width: 100%;
+	height: 25px;
+	position: absolute;
+	left:0px;
+	bottom: 0px;
+	text-indent: 10px;
+	color: #fff;
+	line-height: 25px;
+	text-align: left;
+}
+.myFocusBg{
+	background: #555;
+}
+#myFocus .btn {
+	position:absolute; 
+	height:10px; 
+	right:10px; 
+	bottom:5px;
+}
+#myFocus .btn span { 
+	display:inline-block;  
+	width:6px; 
+	height:6px; 
+	float:left; 
+	cursor:pointer; 
+	background:#fff;
+	margin-right:5px; 
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+#myFocus .btn span.on { 
+	background:#f00;
+}
+
+.applePic_right{
+	width:400px;
+	float: right;
+}
+.applePic_title{
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 10px;
+
+}
+.applePic_right p{
+	line-height: 24px;
+}
+.applePic_date{
+	color:#999;
+	margin-top:-8px;
+}
+.applePic_right a,.appleList  a{
+	color:#2c78d0;
+}
+.applePic_right a:hover,.appleList  a:hover{
+	color:#f60
+}
+.appleList{
+	padding:0px 10px;
+}
+.appleList dl{
+	width:330px;
+	height: 199px;
+	overflow: hidden;
+	float: left;
+}
+.appleList dl dd{
+	height:39px;
+	line-height: 39px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	padding-left: 20px;
+	font-size: 16px;
+	background: url(../../../../images/index/housing/landNew/housingNew_11.gif) no-repeat 5px center;
+	border-bottom: 1px dotted #c3c3c3;
+	margin-left: 1px;
+}
+.newhouse{
+	width:302px;
+	float:right;
+}
+
+/*添加明日城廣告*/
+.trwCity_wrap{
+    padding:10px;
+}
+.trwCity_left{
+    width:670px;
+    height: 420px;
+    float: left;
+}
+.trwCity_right{
+    width:300px;
+    float: right;
+}
+.trwCity_video{
+    height: 210px;
+}
+.trwCity_list{
+    height: 200px;
+}
+.trwCity_list dl{
+    height:80px;
+    padding: 10px;
+}
+.trwCity_list dl dt{
+    width:135px;
+    height: 80px;
+    float: left;
+}
+.trwCity_list dl dd{
+    width:130px;
+    height: 80px;
+    line-height: 26px;
+    float: right;
+}
+/*---更新線上文件--*/
+.goods-recommend{
+	width: 690px;
+	float: left;
+}
+.goods-recommend-content{
+	height: 320px;
+	padding:10px 0px 10px 12px;
+}
+.goods-recommend-content li{
+	float:left;
+	margin-right:12px;
+	margin-top:6px;
+	position: relative;
+}
+.goods-recommend-content li img{
+	width: 210px;
+	height: 124px;
+	border:1px solid #e3e3e3;
+}
+.goods_area_bg{
+	background: #555;
+}
+.goods_area{
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    text-indent: 10px;
+    color: #fff;
+    line-height: 25px;
+    text-align: left;
+}
+.goods-recommend-content li p{
+	line-height: 28px;
+	height: 28px;
+	width: 212px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+}
+.goods-recommend-content li p span{
+	position: absolute;
+	right: 0px;
+	top:0px;
+	color:#f60;
+}
+.goods-recommend-content li p strong{
+	font-size: 15px;
+}
+.focus-content{
+	height: 340px;
+}

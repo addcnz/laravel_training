@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* 底部 start */
+#footer {
+	width:1000px;
+	margin:auto;
+	overflow:hidden;
+}
+#footer .footnav{
+	text-align:center;
+	border-top:1px solid #ddd;
+	line-height:22px;
+	padding:8px 0 15px 0;
+	width:1000px;
+}
+#footer .footnav ul{
+	margin:0 auto;
+}
+#footer .footnav li{
+	float:left;
+	padding-left:23px;
+	background:url(../../../../images/index/help/line.gif) no-repeat;
+	background-position:11px 5px;
+	*background-position:11px 3px;
+}
+#footer .footnav li.first{
+	padding-left:0;
+	background:none;
+}
+#footer .grouplink{
+	color:#333;
+}
+#footer .gray{
+	color:#999;
+}
+#footer .copyright{
+	color:#999;
+	font-family:Arial;
+}
+#footer .copyright span{
+	padding-right:11px;
+	margin-right:10px;
+	background:url(../../../../images/index/help/line.gif) right 0 no-repeat;
+}
+#footer .grouplink a{position:relative;}
+#footer .new-link{position:absolute;right:-23px;top:1px;width:20px;height:8px;display:block;background: url(../../../../images/index/public/newHead/sitenav_bg_v4.gif) 0px -442px no-repeat;}
+/* 底部 end */

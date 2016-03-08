@@ -1,0 +1,61 @@
+/**
+ * 通站CSS reset+common
+ * @author      xbears<j.koalas@gmail.com>
+ * @version     1.0
+ * @copyright   2010-2012 Addcn
+ * @updatetime  2010-12-21
+ */
+/** 設置默認字體 **/
+body { font-family:Verdana,Arial,Helvetica,"Sans Serif"; background:#fff; font-size:12px; color:#333; text-align:center; }
+table, td, tr, th { font-size:12px; }
+/** 清除內外邊距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, div, /* structural elements 結構元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表單元素 */
+th, td /* table elements 表單元素 */ { margin:0; padding:0; }
+/* 將斜體扶正 */
+address, cite, dfn, em, var { font-style:normal; }
+/** 重置列表元素 **/
+ul, ol { list-style:none; }
+/** 重置表单元素 **/
+legend { color:#000; } /* for ie6 */
+fieldset, img { border:0; } /* img 搭車：讓鏈接裏的 img 無邊框 */
+button, input, select, textarea { font-size:100%; } /* 使得表單元素在 ie 下能繼承字體大小 */
+/** 設置默認鏈接 **/
+a:link { color:#0044DD; text-decoration:none; }
+a:visited { color:#0044DD; text-decoration:none; }
+a:hover { color:#f60; text-decoration:underline; }
+a:active { color:#ba2636; }
+/** 默認顯示隱藏 **/
+.dis{ display:block; }
+.undis{	display:none; }
+/** 清除浮動 **/
+.clear { clear:both; display:block; height:0; overflow:hidden; }
+.clearH5 { clear:both; display:block; height:5px; overflow:hidden; }
+.clearH6 { clear:both; display:block; height:6px; overflow:hidden; }
+.clearH9 { clear:both; display:block; height:9px; overflow:hidden; }
+.clearH10 { clear:both; display:block; height:10px; overflow:hidden; }
+.clearH13 { clear:both;	display:block; height:13px; overflow:hidden; }
+/** 清除浮動 New **/
+.clearfix:after{content:".";clear:both;height:0;visibility:hidden;display:block;}
+.clearfix{*zoom:1;}
+/** 公共樣式 **/
+.datalazyload {	border:none; width:1px;	height:1px;	overflow:hidden; }
+.center{ text-align:center; margin-left:auto; margin-right:auto; }
+.hidden{ display:none;}
+.fs12{ font-size:12px;}
+.f13, .fs13{ font-size:13px; }
+.fs15{ font-size:15px; }
+.fc-gry{ color:#666666; }
+.fc-org{ color:#FF6600; }
+.fc-red{ color:#FF0000; }
+.fc-gre{ color:#56A236; }
+.ft-lt{ float:left;}
+.ft-rt{ float:right;}
+.ft-wn{ font-weight:400;}
+.ft-wb{ font-weight:700;}
+.ft-fm-Ar{ font-family:Arial, Helvetica, sans-serif; }
+.ft-fm-Vd{ font-family:Verdana, Arial, Helvetica; }
+.loading { text-align:center; width:100%; padding:20px 0; }
+.baidu_adv{ width:1000px; height:90px; margin-left:auto; margin-right:auto; }

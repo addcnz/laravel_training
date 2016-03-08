@@ -1,0 +1,156 @@
+@charset "utf-8"; 
+/*common樣式*/
+.commCenter{margin-right: auto;margin-left: auto;position: relative;}
+.commWidth{width: 1200px;}
+.inputNoneBg{outline: none;border: none;background: none;}
+.redCol{color: red;}
+.comFont{font: 14px/1.6em 微軟正黑體, 'Century Gothic', sans-serif, serif;}
+.comCol{color: #666666;}
+em.redColor{color: #ff2222;}
+em.orgColor{color: #f60;}
+.serSelectBox{height: 38px;}
+.selectBtn{width: 85px;height: 36px;border: 1px solid #d2d2d2;background: url(../../../../images/index/housing/indexNew/selectIcon.png) no-repeat 85px center;padding-right: 8px;padding-left: 5px;text-align: left;color: #111111;margin-right: 10px;position: relative;line-height: 36px;z-index: 100;}
+.unfoldDiv{position: absolute;top: 36px;left: -1px;width: 98px;border: 1px solid #d2d2d2;background-color: white;display: none;}
+.unfoldDiv a{color: #111;    font: 15px/36px 微軟正黑體, 'Century Gothic', sans-serif, serif;text-decoration: none;display: block;width: 85px;}
+.unfoldDiv li{display: block;width: 85px;padding: 0px 8px 0px 5px;}
+.unfoldDiv a:hover{color: #f60;text-decoration: none;}
+.areas{position: absolute;top: 36px;left: -1px;border: 1px solid #d2d2d2;background-color: white;padding-left: 5px;padding-bottom: 5px; display: none;}
+
+.w475{width: 475px;}
+.areas a{color: #111;text-decoration: none;}
+.areas a:hover{color: #f60;text-decoration: none;}
+.areas ul li{float: left;width: 62px;text-align: left;}
+.areas dl dt{float: left;color: red;clear: both;width: 40px;}
+a.allCon{width: 70px;text-align: left;color: #0044dd;*position: absolute;*right: 0px;*top: 0px;}
+.conHeader{border-bottom: 1px solid #ffdcab;margin-right: 5px;position: relative;}
+.checkBoxContainer{margin-right: 5px;}
+ul.checkBoxContainer li{float: left;width: 75px;text-align: left;}
+ul.checkBoxContainer li label{font: 15px/36px 微軟正黑體, 'Century Gothic', sans-serif, serif;}
+ul.station li{border-bottom: 1px solid #d2d2d2;background: url(../../../../images/index/map/new_mapIcon.png) no-repeat 88px -47px;display: block;width: 85px;padding: 0px 8px 0px 5px;}
+.stationDetailInfo{position: absolute;top: 36px;left: -1px;width: 520px;clear: both;border: 1px solid #d2d2d2;background-color: white;display: none;}
+ul.station li:hover{background: url(../../../../images/index/map/new_mapIcon.png) no-repeat 88px -15px;color: #f60;}
+ul.station li.active{background: url(../../../../images/index/map/new_mapIcon.png) no-repeat 88px -15px;color: #f60;}
+ul.station li.active a{color: #f60}
+ul.station{width: 98px;border: 1px solid #d2d2d2;background-color: white;border-bottom: none;float: left;height: 100%;margin-left: -1px;margin-top: -1px;}
+ul.station a{color: #111;    font: 15px/36px 微軟正黑體, 'Century Gothic', sans-serif, serif;text-decoration: none;display: block;width: 85px;}
+ul.station a:hover{color: #f60;}
+ul.stationDetail{float: left;width: 400px;border-left: 1px solid #d2d2d2;padding-bottom: 10px;background-color: white;height: 100%;padding-left: 5px;margin-left: -1px;}
+ul.stationDetail li{float: left;width: block;width: 100px;text-align: left;}
+.stationDetail a{color: #111;font: 15px/36px 微軟正黑體, 'Century Gothic', sans-serif, serif;text-decoration: none;display: block;width: 100px;}
+.stationDetail a:hover{color: #f60}
+
+.seleTxt{font: 15px/36px 微軟正黑體, 'Century Gothic', sans-serif, serif;}
+a.serBtn{display: block;width: 116px;height: 38px;color: white;font:bold 15px/38px  微軟正黑體, 'Century Gothic', sans-serif, serif;background-color: #ff6600;text-align: center;text-decoration: none;}
+.hotSearch{height: 38px;line-height: 38px;font: 15px/36px 微軟正黑體, 'Century Gothic', sans-serif, serif;color: #414141;margin-left: 23px;width: 500px;overflow: hidden;text-align: left;}
+.hotSearch a{margin-right: 8px;}
+.hotSearch a:hover{text-decoration: underline;}
+#areabox-many-y{  width: 50px;height: 25px;text-align: center; cursor: pointer;}
+
+/*主體左側*/
+.leftArea{width: 882px;}
+.bigBann{width: 660px;height: 440px;overflow: hidden;position: relative;border: 1px solid #999;}
+.bigBann .bannerImg{position: absolute;left: 0px;top: 0px;}
+.bigBann .bannerImg li,.bannerIndx li{float: left;}
+.bigBann .bannerImg li{background: url("../../../../images/index/build/loading.gif") 50% 50% #FFFFFF no-repeat;}
+.bigBann .bannerImg li{width:660px;height:440px;position: relative;}
+.bannerIndx{position: absolute;bottom: 20px;right: 19px;height: 10px}
+.bannerIndx li a{display: inline-block;width: 9px;height: 9px;background: url(../../../../images/index/housing/indexNew/imgIndex.png) no-repeat;margin-left: 6px;}
+.bannerIndx li a.active{display: inline-block;width: 9px;height: 9px;background: url(../../../../images/index/housing/indexNew/imgIndexSel.png) no-repeat;margin-left: 6px;}
+a.bigImgBox{width: 660px;height: 440px;display: block;position: relative;text-decoration: none;}
+.bottomShad{position: absolute;bottom: 0px;left: 0px;height: 50px;padding-left: 16px;color: white;background:rgba(0,0,0,.7);*background:#000;filter:alpha(opacity=70);font: 16px/50px 微軟正黑體, 'Century Gothic', sans-serif, serif;text-align: left;width: 644px;}
+.little_ad{position: relative;margin-bottom: 3px}
+.smallBann{width: 219px;height: 440px;overflow: hidden;margin-left: 1px;}
+.smallBann a.smallBannLink{width: 219px;height: 145px;display: block;position: relative;text-decoration: none;}
+.sBottomShad{position: absolute;bottom: 0px;left: 0px;background-color: black;opacity: 0.7;color: white;height: 34px;width: 219px;padding-top: 3px;padding-bottom: 3px;}
+.sBottomShad p{padding: 0 10px;text-align: left;height: 17px;line-height: 17px;}
+/*熱銷建案*/
+.commheader{margin-top: 15px;}
+.headerTitle{font-family: '微软雅黑';font-size: 24px;font-weight: normal;text-align: left;border-bottom: 3px solid #333333;padding-bottom: 8px;width: 100px;height: 31px}
+.titleWidth{width: 127px;}
+div.linksWith{width: 723px;}
+.titleWidth2{width: 78px;}
+div.linksWith2{width: 772px;}
+.commheader .active{border-bottom: 3px solid #ff5400;background: url(../../../../images/index/housing/indexNew/redSjIcon.png) no-repeat center bottom;}
+.hotLinks{border-bottom: 3px solid #333;padding-left: 30px;height: 39px;width: 750px;text-align: left;overflow: hidden;}
+.hotLinks a.hotLink{color: #333;font: 15px/39px 微軟正黑體, 'Century Gothic', sans-serif, serif;margin-right: 20px;}
+.hotLinks a.getMore{color: #333;font: 15px/39px 微軟正黑體, 'Century Gothic', sans-serif, serif;float: right;}
+.hotLinks a.hotLink:hover,.hotLinks a.getMore:hover{color: #f60;}
+
+.adsBox{width: 880px;overflow: hidden;height: 520px;}
+.adImgList{list-style-position: inside;width: 920px;}
+.firstList{}
+.adImgList li{float: left;padding-right: 29px;padding-bottom: 20px;border-bottom: 1px dashed #ccc;padding-top: 17px;}
+.adsLink{width: 272px;height: 182px;border: 1px solid #e5e5e5;display: block;position: relative;text-decoration: none;}
+.adsLink:hover{text-decoration: none;}
+.adInfoShad{position: absolute;left: 0px;bottom: 0px;background-color: black;opacity: 0.7;height: 31px;font: 14px/31px 微軟正黑體, 'Century Gothic', sans-serif, serif;color: white;width: 258px;padding: 0px 7px;}
+.detailBox{text-align: left;clear: both;width: 274px;height:22px;overflow:hidden;}
+.bigAd{width: 575px;height: 274px;display: block;border: none;}
+.bigLi{height: 274px;}
+.callsRanking{margin-top: 13px;padding-left: 2px;width: 380px;height: 402px;overflow: hidden;}
+.rankHeader{border-bottom: 1px solid #cccccc;text-align: left;font-family: '微软雅黑';font-size: 19px;font-weight: normal;line-height: 1.6em;padding-bottom: 5px;}
+.rankListItems{width: 380px;border-bottom: 1px dashed #e5e5e5;height: 45px;font: 15px/45px 微軟正黑體, 'Century Gothic', sans-serif, serif;text-align: left;}
+.listTips{width: 15px;height: 15px;border-radius: 3px;color: white;display: inline-block;text-align: center;line-height: 15px;}
+a.rankLink{color: #0044DD;display: inline-block;width: 118px;text-align: left;padding-left: 10px;}
+a.rankLink:hover{color: #f60}
+.priceAver{display: inline-block;text-align: center;width: 155px;}
+.totalPrice{display: inline-block;text-align: right;width: 70px;float: right;}
+.orgBg{background-color: #f60;}
+.grevBg{background-color: #b8b8b8;}
+.ranking2{margin-left: 115px;}
+
+/*主體右側*/
+.rightArea{width: 300px;float: right;position: relative;}
+#rightArea{width: 300px;right:0px;}
+a.freeBuildCase{width: 300px;height: 60px;background-color: #f60;display: block;font: bold 27px/60px 微軟正黑體, 'Century Gothic', sans-serif, serif;color: white;text-decoration: none;}
+.feerBuildIcon{display: inline-block;width: 32px;height: 31px;background: url(../../../../images/index/housing/indexNew/feerBuildIcon.png) no-repeat;position: relative;top: 5px;left: -7px;}
+.renPubSaleBox{border: 1px solid #e4e4e4;margin-top: 20px;}
+.renHeader{border-bottom: 1px solid #e4e4e4;height: 43px;font: 17px/43px 微軟正黑體, 'Century Gothic', sans-serif, serif;color: #000;text-indent: 10px;text-align: left;background-color: #f6f6f6;}
+.renListHeader{padding: 0px 16px 25px 16px;}
+.monthHead{text-align: left;margin-top: 23px;}
+.monthHeadIcon{display: inline-block;background: url(../../../../images/index/housing/indexNew/monthIcon.png) no-repeat;width: 65px;height: 17px;font: 12px/17px 微軟正黑體, 'Century Gothic', sans-serif, serif;color: #666;text-indent: 5px;}
+.monthHead span.active{display: inline-block;background: url(../../../../images/index/housing/indexNew/monthIconA.png) no-repeat;width: 65px;height: 17px;font: 12px/17px 微軟正黑體, 'Century Gothic', sans-serif, serif;color: white;text-indent: 5px;}
+.detailSale{text-align: left;margin-top: 14px;font: 15px/15px 微軟正黑體, 'Century Gothic', sans-serif, serif;color: #333;}
+.detailSale span{display: inline-block;}
+.newCaseName{width: 105px;text-align: left;}
+.newCaseAdd{width: 70px;text-align: center;}
+.avePrice{width: 82px;text-align: right;}
+.rightAd1{width: 300px;margin: 20px 0px;}
+.renListHeader a{color:#333;}
+.renListHeader a:hover{color:#f60;}
+/*滾動插件*/
+#scrollbar .viewport { width: 282px; height: 314px;overflow: hidden; position: relative; }
+#scrollbar .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; width: 272px;padding-left:10px;padding-bottom: 20px;}
+#scrollbar .scrollbar{ background: transparent url(../../../../images/index/plugin/tinyscroll/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; }
+#scrollbar .track { background: transparent url(../../../../images/index/plugin/tinyscroll/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar .thumb { background: transparent url(../../../../images/index/plugin/tinyscroll/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+#scrollbar .thumb .end { background: transparent url(../../../../images/index/plugin/tinyscroll/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+#scrollbar .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+/*優惠個案*/
+.shippingList{text-align: left;padding: 2px 10px 20px 11px;}
+.shippHead{width: 5px;height: 5px; background-color: #cccccc;display:block;position: absolute;top: 5px;}
+.shippItemBox a{display: block;position:absolute;left:10px;font:  15px/15px 微軟正黑體, 'Century Gothic', sans-serif, serif;color: #0044DD;margin-left: 3px;height:15px;line-height: 15px;white-space:nowrap;text-overflow:ellipsis;width: 268px;overflow: hidden;}
+.shippItemBox a:hover{color: #f60;}
+.shippItemBox{margin-top: 21px;height:15px;line-height: 15px;position: relative;}
+/*購房工具*/
+.buyHouseTools{width: 298px;height: 195px;overflow: hidden;}
+.buyHouseTools ul{width: 305px;list-style-position: inside;}
+.buyHouseTools ul li{float: left;}
+.toolLink{width: 99px;height: 97px;border-bottom: 1px solid #e4e4e4;border-right: 1px solid #e4e4e4;display: block;position: relative;text-align: center;}
+.toolLink:hover p{color: #f60;}
+.toolLink img{position: absolute;left: 31px;top: 21px;width: 30px;height: 30px;}
+.toolLink p{position: absolute;left: 0px;top: 64px;width: 96px;height: 15px;font: 15px/15px 微軟正黑體, 'Century Gothic', sans-serif, serif;color: #333;}
+.newHouseKeyWords{padding-top: 30px;clear: both;text-align: left;background-color: #f9f9f9;padding-bottom: 32px;}
+.kewWordsHeader{font-size: 15px;font-family: '微软雅黑';padding-bottom: 10px;}
+.keyWordsDis{font: 14px/30px 微軟正黑體, 'Century Gothic', sans-serif, serif;color: #333;text-align: left;}
+.keyWordsListH{width: 95px;}
+.keyWordsListI{width: 1030px;}
+.keyWordsListI a{color: #333;display: inline-block;width: 88px;}
+.keyWordsListI a:hover{color: #f60;}
+.linkHeader{width: 120px;display: inline-block;padding-left: 25px;font-weight: bold;}
+.linkItems{width: 1050px;display: inline-block;}
+.linkItems a{margin-right: 10px;color: #303130;display: inline-block;}
+.linkItems a:hover{color: #f60;}
+.bottomBorder{ clear:both; height:2px;background-color: #ff5400;border-bottom: 1px solid #dddddd;position: relative;top: 30px; }
+.rankingBox{margin-bottom: 20px;}
+
