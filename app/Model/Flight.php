@@ -6,5 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Flight extends Model
 {
-    //
+    function a(){
+        return false;
+    }
 }
