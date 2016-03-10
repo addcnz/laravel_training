@@ -53,6 +53,22 @@ return [
         ],
 
         'mysql' => [
+            'read' => [
+                'host' => '192.168.8.117',
+            ],
+            'write' => [
+                'host' => '192.168.8.117'
+            ],
+            'driver'    => 'mysql',
+            'database'  => env('DB_DATABASE', 't591'),
+            'username'  => env('DB_USERNAME', 't591'),
+            'password'  => env('DB_PASSWORD', 'sogamysql'),
+            'charset'   => 'latin1',
+            'collation' => 'latin1_general_ci',
+            'prefix'    => '',
+            'strict'    => false,
+        ],
+        'masterdb' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', '192.168.8.117'),
             'database'  => env('DB_DATABASE', 't591'),

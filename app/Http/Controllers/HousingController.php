@@ -44,7 +44,7 @@ class HousingController extends BaseController{
     }
     //新房屋首頁
     function home(){
-        $obj_build = Build::whereIn("id",[100101,100102])->get();
+        //$obj_build = Build::whereIn("id",[100101,100102])->get();
 //        foreach($obj_build as $val){
 //            echo $val->user_id."*";
 //        }

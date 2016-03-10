@@ -20,3 +20,10 @@ Route::get('/', 'HousingController@home');
 
 //Route::get('/', 'HousingController@index');
 
+Route::get("eloquent_test.html","FlightController@store");
+Route::get("eloquent_test_update.html","FlightController@update");
+//queries 查詢構造器
+Route::get("db_index.html","FlightController@index");
+//orm
+Route::get("orm_index.html","FlightController@create");
+
